@@ -19,7 +19,6 @@
         android:id="@+id/app_slogan_id"
         android:layout_width="220dp"
         android:layout_height="wrap_content"
-
         android:layout_marginTop="140dp"
         android:text="Find, Discover, Choose and Buy anything Online"
         android:textAlignment="center"
@@ -30,7 +29,7 @@
         android:layout_alignParentTop="true"
          />
     <Button
-        android:id="@+id/main_login_btn_id"
+        android:id="@+id/main_login_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentBottom="true"
@@ -47,7 +46,7 @@
         android:layout_alignParentLeft="true" />
 
     <Button
-        android:id="@+id/main_join_now_btn_id"
+        android:id="@+id/main_join_now_btn"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_above="@+id/main_login_btn_id"

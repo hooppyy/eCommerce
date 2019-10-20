@@ -1,8 +1,5 @@
 package com.heba.ecommerce;
 
-import androidx.annotation.NonNull;
-import androidx.appcompat.app.AppCompatActivity;
-
 import android.app.ProgressDialog;
 import android.content.Intent;
 import android.os.Bundle;
@@ -11,6 +8,9 @@ import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import androidx.annotation.NonNull;
+import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
@@ -33,7 +33,7 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
 
-        CreateAccountButton =(Button) findViewById(R.id.register__btn_id);
+        CreateAccountButton =(Button) findViewById(R.id.register_btn_id);
         InputName =(EditText) findViewById(R.id.register_username_input_id);
         InputPhoneNumber =(EditText) findViewById(R.id.register_phone_number_input_id);
         InputPassword =(EditText) findViewById(R.id.register_password_input_id);
