@@ -62,7 +62,7 @@ public class HomeActivity extends AppCompatActivity {
         CircleImageView profileImageView = headerView.findViewById(R.id.user_profile_image_id);
 
         userNameTextView.setText(Prevalent.currentOnlineUser.getName());
-
+//
     }
 
     @Override
